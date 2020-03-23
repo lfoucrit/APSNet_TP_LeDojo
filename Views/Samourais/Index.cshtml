@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BO.Samourai>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+    <h2>Liste des samouraïs</h2>
+
+    <p>
+        @Html.ActionLink("Nouveau samouraï", "Create", null, new { @class = "btn btn-default" })
+        @Html.ActionLink("Voir les armes", "Index", "Armes", null, new { @class = "btn btn-default" })
+    </p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Force)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Arme)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Force)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nom)
+    </td>
+    <td>
+        @if (item.Arme != null)
+        {
+            @Html.DisplayFor(modelItem => item.Arme.Nom)
+        }
+
+    </td>
+    <td>
+        @Html.ActionLink("Modifier", "Edit", new { id = item.Id }, new { @class = "btn btn-default" })
+        @Html.ActionLink("Détails", "Details", new { id = item.Id }, new { @class = "btn btn-default" })
+        @Html.ActionLink("Supprimer", "Delete", new { id = item.Id }, new { @class = "btn btn-default" })
+    </td>
+</tr>
+}
+
+</table>

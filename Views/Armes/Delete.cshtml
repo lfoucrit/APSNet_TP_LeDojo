@@ -1,0 +1,40 @@
+﻿@model BO.Arme
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Suppression</h2>
+
+<h3>Êtes-vous sur de vouloir supprimer cette arme ? Les samouraïs avec cette arme n'auront plus d'arme.</h3>
+<div>
+    <h4>Arme</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Degats)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Degats)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Supprimer" class="btn btn-default" /> |
+            @Html.ActionLink("Annuler", "Index")
+        </div>
+    }
+</div>
