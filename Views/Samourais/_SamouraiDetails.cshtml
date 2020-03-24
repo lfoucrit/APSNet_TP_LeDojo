@@ -1,0 +1,49 @@
+﻿@model BO.Samourai
+
+<div>
+    <h4>Samourai</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Force)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Force)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Arme)
+        </dt>
+        <dd>
+            @if (Model.Arme != null)
+            {
+                @Html.DisplayFor(model => model.Arme.Nom);
+            }
+        </dd>
+
+        <dt>
+            Arts martiaux
+        </dt>
+        <dd>
+            @foreach (var artMartials in Model.ArtMartials)
+            {
+                @Html.DisplayFor(i => artMartials.Nom) <br />
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Potentiel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Potentiel)
+        </dd>
+
+    </dl>
+</div>

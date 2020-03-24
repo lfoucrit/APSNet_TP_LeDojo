@@ -52,6 +52,8 @@ C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\roslyn\VBCSCompiler.exe
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\Antlr3.Runtime.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\BO.dll
+C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.dll
+C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.SqlServer.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\Newtonsoft.Json.dll
@@ -64,6 +66,8 @@ C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\System.Web.WebPages.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\System.Web.WebPages.Razor.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\WebGrease.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\BO.pdb
+C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.xml
+C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.SqlServer.xml
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\System.Web.Helpers.xml
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\System.Web.Mvc.xml
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\System.Web.Optimization.xml
@@ -82,10 +86,9 @@ C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\fr\System.Web.WebPages.resources
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\fr\System.Web.WebPages.Razor.resources.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\TP_LeDojo.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\Dojo.Migrations.initial.resources
+C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\TP_LeDojo.csproj.GenerateResource.cache
 C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\TP_LeDojo.csproj.CopyComplete
 C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\TP_LeDojo.dll
 C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\TP_LeDojo.pdb
-C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.dll
-C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.SqlServer.dll
-C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.xml
-C:\Users\Utilisateur\source\repos\TP_LeDojo\bin\EntityFramework.SqlServer.xml
+C:\Users\Utilisateur\source\repos\TP_LeDojo\obj\Debug\Dojo.Migrations.RelationArtMartial.resources

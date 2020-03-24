@@ -9,6 +9,7 @@
     <p>
         @Html.ActionLink("Nouveau samouraï", "Create", null, new { @class = "btn btn-default" })
         @Html.ActionLink("Voir les armes", "Index", "Armes", null, new { @class = "btn btn-default" })
+        @Html.ActionLink("Voir les arts martiaux", "Index", "ArtMartials", null, new { @class = "btn btn-default" })
     </p>
 <table class="table">
     <tr>
@@ -20,6 +21,9 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Arme)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ArtMartials)
         </th>
         <th></th>
     </tr>
@@ -37,7 +41,12 @@
         {
             @Html.DisplayFor(modelItem => item.Arme.Nom)
         }
-
+    </td>
+    <td>
+        @foreach (var artMartials in item.ArtMartials)
+        {
+            @Html.DisplayFor(i => artMartials.Nom) <br />
+        }
     </td>
     <td>
         @Html.ActionLink("Modifier", "Edit", new { id = item.Id }, new { @class = "btn btn-default" })
